@@ -1,0 +1,22 @@
+一、collector升级：
+	1、新增jar：/service/webapps/production/pinpoint-collector/webapps/ROOT/WEB-INF/lib/下
+		见附件：pinpoint-rocketmq-client-plugin-1.6.3-SNAPSHOT.jar
+
+二、web升级：
+	1、新增jar: /service/webapps/production/pinpoint-alarm/webapps/ROOT/WEB-INF/lib/
+		见附件：pinpoint-rocketmq-client-plugin-1.6.3-SNAPSHOT.jar
+
+	2、替换文件：/service/webapps/production/pinpoint-alarm/webapps/ROOT/components/server-map2
+		见附件：jquery.ServerMap2.js
+
+	3、替换文件：/service/webapps/production/pinpoint-alarm/webapps/ROOT/lib/js/
+		见附件：pinpoint-component.min.js
+	4、新增图标：
+		/service/webapps/production/pinpoint-alarm/webapps/ROOT/images/icons
+			ROCKETMQ_CLIENT.png
+		/service/webapps/production/pinpoint-alarm/webapps/ROOT/images/servermap
+			ROCKETMQ_CLIENT.png
+
+三、各个服务器agent升级
+	新增jar：/service/software/pinpoint-agent/plugin/
+		pinpoint-rocketmq-client-plugin-1.6.3-SNAPSHOT.jar
